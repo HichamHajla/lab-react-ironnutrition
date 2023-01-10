@@ -37,7 +37,7 @@ function App() {
   return (
     <div>
       {formVisible && <AddFoodForm addFood={addFood} />}
-      <Button onClick={toggleForm}>{formVisible ? "Hide Form" : "Add New Food"}</Button>
+      <Button style={{margin:"10px"}} onClick={toggleForm}>{formVisible ? "Hide Form" : "Add New Food"}</Button>
       <Search onSearch={handleSearch} />
       <Divider>
         <h1>Food List</h1>

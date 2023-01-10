@@ -36,7 +36,7 @@ const AddFoodForm = (props) => {
       <label>Servings</label>
       <Input placeholder="Servings" value={servings} onChange={(e) => setServings(e.target.value)} />
 
-      <button type="submit">Create</button>
+      <button style={{margin:"10px"}} type="submit">Create</button>
     </form>
     )
 }
